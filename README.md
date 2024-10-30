@@ -1,4 +1,4 @@
-# DBMS-using-MySQL
+
 # DBMS Using MySQL 🚀
 
 Welcome to the **DBMS Using MySQL** repo! Here, we’re diving into the world of databases, SQL, and everything in between. This repository is perfect for beginners who want a hands-on introduction to MySQL and how databases work. 😄
