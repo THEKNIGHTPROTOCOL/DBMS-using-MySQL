@@ -1,0 +1,3 @@
+SELECT SName
+FROM Sailors
+WHERE Sid NOT IN (SELECT Sid FROM Reserves);
