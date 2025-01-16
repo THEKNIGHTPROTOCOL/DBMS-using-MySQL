@@ -1,0 +1,57 @@
+-- 🌟 SQL ORDER BY Cheat Sheet 🌟 --
+
+-- 1️⃣ Basic Syntax
+SELECT column1, column2  
+FROM table_name  
+ORDER BY column1 [ASC|DESC];
+
+-- 2️⃣ Order by One Column (Ascending is Default)
+SELECT *  
+FROM employees  
+ORDER BY first_name;
+
+-- 3️⃣ Order by One Column in Descending Order
+SELECT *  
+FROM employees  
+ORDER BY salary DESC;
+
+-- 4️⃣ Order by Multiple Columns
+SELECT *  
+FROM employees  
+ORDER BY department, salary DESC;
+
+-- 5️⃣ Order by Column Index
+SELECT *  
+FROM employees  
+ORDER BY 2, 1; -- Sort by second column, then first
+
+-- 6️⃣ Order by Calculated Columns
+SELECT name, (salary + bonus) AS total_compensation  
+FROM employees  
+ORDER BY total_compensation DESC;
+
+-- 7️⃣ Combine with LIMIT for Top Results
+SELECT *  
+FROM employees  
+ORDER BY salary DESC  
+LIMIT 5; -- Top 5 salaries
+
+-- 8️⃣ Use with NULLS First or Last (if supported)
+SELECT *  
+FROM employees  
+ORDER BY commission DESC NULLS LAST;
+
+-- 9️⃣ Case-Insensitive Ordering
+SELECT *  
+FROM employees  
+ORDER BY LOWER(name);
+
+-- 1️⃣0️⃣ Custom Sort Order (Using CASE)
+SELECT *  
+FROM employees  
+ORDER BY  
+  CASE  
+    WHEN department = 'HR' THEN 1  
+    WHEN department = 'IT' THEN 2  
+    ELSE 3  
+  END;
