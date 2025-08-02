@@ -4,6 +4,6 @@ SELECT EmployeeID, FirstName, LastName, Salary
 FROM Employees
 WHERE Salary > 70000;                                                                                
 
--- Query the view
+-- Query the view       
 SELECT * FROM HighSalaryEmployees;
  
