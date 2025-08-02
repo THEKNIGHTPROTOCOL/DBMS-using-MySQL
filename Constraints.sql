@@ -1,6 +1,6 @@
 -- Add a NOT NULL constraint
 ALTER TABLE employees
-MODIFY salary DECIMAL(10, 2) NOT NULL;    
+MODIFY salary DECIMAL(10, 2) NOT NULL;              
 
 -- Add a UNIQUE constraint
 ALTER TABLE employees
