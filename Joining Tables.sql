@@ -3,7 +3,7 @@ SELECT
     e.EmployeeID, 
     e.FirstName, 
     e.LastName,  
-    d.DepartmentName, 
+    d.DepartmentName,   
     e.Salary
 FROM Employees e
 JOIN Departments d
