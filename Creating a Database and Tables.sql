@@ -20,3 +20,4 @@ CREATE TABLE Departments (
     DepartmentID INT PRIMARY KEY AUTO_INCREMENT,
     DepartmentName VARCHAR(100)
 );
+  
