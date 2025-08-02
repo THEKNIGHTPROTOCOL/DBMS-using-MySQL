@@ -8,4 +8,4 @@ WHERE salary > 50000;
 SELECT * FROM employee_salaries;
 
 -- Drop a view
-DROP VIEW employee_salaries;
+DROP VIEW employee_salaries; 
