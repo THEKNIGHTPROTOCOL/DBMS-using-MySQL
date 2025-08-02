@@ -2,7 +2,7 @@
 ALTER TABLE employees
 MODIFY salary DECIMAL(10, 2) NOT NULL;              
                                                 
--- Add a UNIQUE constraint
+-- Add a UNIQUE constraint                               
 ALTER TABLE employees
 ADD CONSTRAINT unique_email UNIQUE (email);
 
