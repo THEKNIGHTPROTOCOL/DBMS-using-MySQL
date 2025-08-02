@@ -7,5 +7,5 @@ ALTER TABLE employees
 ADD CONSTRAINT unique_email UNIQUE (email);
 
 -- Add a PRIMARY KEY constraint
-ALTER TABLE employees
+ALTER TABLE employees   
 ADD PRIMARY KEY (employee_id); 
