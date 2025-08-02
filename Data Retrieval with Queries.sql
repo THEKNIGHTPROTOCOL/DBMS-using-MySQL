@@ -4,7 +4,7 @@ FROM employees;
 
 -- Select with filtering and sorting
 SELECT first_name, last_name, salary
-FROM employees
+FROM employees 
 WHERE department_id = 101
 ORDER BY salary DESC;
 
