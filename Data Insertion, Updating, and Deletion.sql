@@ -10,3 +10,4 @@ WHERE employee_id = 1;
 -- Delete records from a table
 DELETE FROM employees
 WHERE employee_id = 1;
+ 
