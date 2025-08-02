@@ -2,7 +2,7 @@
 SELECT 
     e.EmployeeID, 
     e.FirstName, 
-    e.LastName, 
+    e.LastName,  
     d.DepartmentName, 
     e.Salary
 FROM Employees e
