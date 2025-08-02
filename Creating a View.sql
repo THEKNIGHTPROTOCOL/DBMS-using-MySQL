@@ -6,3 +6,4 @@ WHERE Salary > 70000;
 
 -- Query the view
 SELECT * FROM HighSalaryEmployees;
+ 
