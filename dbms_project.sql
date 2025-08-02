@@ -12,7 +12,7 @@ CREATE TABLE Students (
     age INT CHECK(age > 0),
     major VARCHAR(50)
 );
-
+  
 -- Inserting Records
 INSERT INTO Students (first_name, last_name, age, major) 
 VALUES 
